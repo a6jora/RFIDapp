@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AppMain.AddPersonListener">
+  <grid id="27dc6" binding="apMainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="300"/>
+    </constraints>
+    <properties>
+      <maximumSize width="500" height="300"/>
+      <minimumSize width="500" height="300"/>
+      <preferredSize width="300" height="300"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="etched"/>
+    <children>
+      <grid id="cf407" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="50"/>
+            <preferred-size width="500" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="18"/>
+        </properties>
+        <border type="etched"/>
+        <children>
+          <component id="48fc4" class="javax.swing.JLabel" binding="apUidLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <minimum-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="UID:"/>
+            </properties>
+          </component>
+          <component id="c169f" class="javax.swing.JTextField" binding="apUidField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="350" height="40"/>
+                <preferred-size width="350" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="387bf" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="50"/>
+            <preferred-size width="500" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="b8d0" class="javax.swing.JLabel" binding="apFioLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <minimum-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="FIO: "/>
+            </properties>
+          </component>
+          <component id="3e7a9" class="javax.swing.JTextField" binding="apFioField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="350" height="40"/>
+                <preferred-size width="350" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b3da0" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="50"/>
+            <preferred-size width="500" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="4c7e3" class="javax.swing.JLabel" binding="apExpLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <minimum-size width="100" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="Exp:"/>
+            </properties>
+          </component>
+          <component id="d6830" class="javax.swing.JTextField" binding="apExpField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="350" height="40"/>
+                <preferred-size width="350" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ef68" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="50"/>
+            <preferred-size width="500" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="459ec" class="javax.swing.JLabel" binding="apPhotoLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                <minimum-size width="100" height="50"/>
+                <preferred-size width="109" height="26"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="Photo:"/>
+            </properties>
+          </component>
+          <component id="68ec7" class="javax.swing.JButton" binding="apPhotoButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="Load photo"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4efcb" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="350" height="50"/>
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="etched"/>
+        <children>
+          <component id="2993f" class="javax.swing.JButton" binding="apOkButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="Ok"/>
+            </properties>
+          </component>
+          <component id="e1fb8" class="javax.swing.JButton" binding="apCancelButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
